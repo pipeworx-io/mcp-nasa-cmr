@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-nasa-cmr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NASA CMR (Common Metadata Repository) MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-nasa-cmr": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nasa-cmr"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-nasa-cmr"
+    "url": "git+https://github.com/pipeworx-io/mcp-nasa-cmr.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-8cfff98ace70e16080fd21ef248fbe6b447c84f3b598c7c5b4a95e903d18b548",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
