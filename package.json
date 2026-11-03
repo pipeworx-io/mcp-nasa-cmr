@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nasa-cmr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NASA CMR (Common Metadata Repository) MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nasa-cmr",
     "gatewaySlug": "nasa-cmr",
-    "sourceHash": "v1-8ee603785a043e6feb8830ed721a9309fa3d1019164736fea59685edde99f292",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-8d08e51bbaf8e6837e64063f0802786c0c2d2ab45316db75002e498b2cf3bdf0",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
